@@ -1,0 +1,11 @@
+8
+
+https://www.grubhub.com/
+https://www.grubhub.com/service-worker.js
+true
+{7e619d62-3a0b-4a1e-ae60-5200550a4705}
+0
+1603492517129642
+1603492519283089
+1603492517032127
+#
