@@ -66,9 +66,7 @@ class DataBaseThread(threading.Thread):
 
     def dump_sql(self):
         import os
-        os.system(
-            "sqlite3 database.db \".dump 'states' 'cities'\" > states_cities.sql")
-        tables = ['chains', 'restaurants', 'cuisines',
+        tables = ['states', 'cities', 'chains', 'restaurants', 'cuisines',
                   'menus', 'menus_items', 'cuisines_restaurants']
         for t in tables:
             os.system("sqlite3 database.db \".dump '"+t+"'\" > db/"+t+".sql")
