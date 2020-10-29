@@ -1,4 +1,4 @@
-# Grubhub Scraper
+# Grubhub Scrapper
 
 ## Save States and Cities
 > python3 Cities.py
